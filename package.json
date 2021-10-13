@@ -1,12 +1,16 @@
 {
-  "name": "backend-auditplus",
+  "name": "servidor",
   "version": "1.0.0",
-  "private":true,
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "development": "nodemon app.js",
+    "dev": "nodemon app.js",
     "devbabel": "nodemon app.js --exec babel-node"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "connect-history-api-fallback": "^1.6.0",
     "cors": "^2.8.5",

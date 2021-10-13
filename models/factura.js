@@ -1,4 +1,4 @@
-const mongoose =require('mongoose');
+import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 const facturaSchema = new Schema({
     noradicacion: {type: String, required: [true, 'Número de Radicación Obligatorio']},
@@ -16,4 +16,4 @@ const facturaSchema = new Schema({
 });
 
 const factura=mongoose.model('factura',facturaSchema)
-module.exports = factura;
+export default factura;
