@@ -10,20 +10,29 @@
     "devbabel": "nodemon app.js --exec babel-node"
   },
   "keywords": [],
-  "author": "",
+  "author": "Grupo2",
   "license": "ISC",
   "dependencies": {
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.8",
     "connect-history-api-fallback": "^1.6.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^6.0.8",
-    "morgan": "^1.10.0",
-    "babel-cli": "^6.26.0"
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.15.7",
-    "@babel/core": "^7.15.5",
+    "@babel/core": "^7.15.8",
     "@babel/node": "^7.15.4",
-    "@babel/preset-env": "^7.15.6"
-  }
+    "@babel/preset-env": "^7.15.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monicador/backend_auditplus.git"
+  },
+  "bugs": {
+    "url": "https://github.com/monicador/backend_auditplus/issues"
+  },
+  "homepage": "https://github.com/monicador/backend_auditplus#readme"
 }
